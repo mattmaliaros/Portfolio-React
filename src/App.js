@@ -1,33 +1,34 @@
 import React from 'react';
-
+import Navbar from './components/Navbar';
+import Contact from './components/Contact';
+import { Parallax } from 'react-parallax';
+import Introduction from './components/Introduction';
+import Projects from './components/Projects';
+import SocialMedia from './components/SocialMedia';
 const App = () => {
   return (
     <>
-      <nav class='black' role='navigation'>
-        <div class='nav-wrapper container'>
-          <a id='logo-container' href='./index.html' class='brand-logo'>
-            <i class='material-icons'>description</i>
-          </a>
-          <ul class='right hide-on-med-and-down'>
-            <li>
-              <a href='./index.html'>HOME</a>
-            </li>
-          </ul>
-
-          <ul id='nav-mobile' class='sidenav'>
-            <li>
-              <a href='./index.html'>About</a>
-            </li>
-          </ul>
-          <a
-            href='./index.html'
-            data-target='nav-mobile'
-            class='sidenav-trigger'
-          >
-            <i class='material-icons'>menu</i>
-          </a>
-        </div>
-      </nav>
+      <Navbar />
+      <Parallax
+        bgImage={require('./assets/images/Dark-Parallax.jpg')}
+        bgImageAlt='Parallax'
+        strength={500}
+      >
+        <Contact />
+      </Parallax>
+      <Parallax bgImageAlt='Parallax'>
+        <Introduction />
+      </Parallax>
+      <Parallax
+        bgImage={require('./assets/images/DSC100125020.jpg')}
+        bgImageAlt='Parallax'
+        strength={500}
+      >
+        <Projects />
+      </Parallax>
+      <Parallax bgImageAlt='Parallax'>
+        <SocialMedia />
+      </Parallax>
     </>
   );
 };
