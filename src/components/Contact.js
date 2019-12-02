@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
   return (
     <div
-      style={{ height: '380px' }}
+      style={{ height: '320px' }}
       id='index-banner'
       className='parallax-container'
     >
