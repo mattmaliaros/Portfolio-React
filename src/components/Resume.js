@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ResumeGithub = () => {
+const Resume = () => {
   return (
     <div
       style={{ height: '320px' }}
@@ -10,7 +10,7 @@ const ResumeGithub = () => {
       <div className='row center'>
         <h3 className='header center white-text text-lighten-2'>Resources</h3>
         <div className='row center'>
-          <h5 className='header col s12 light white-text'>Resume & Github</h5>
+          <h5 className='header col s12 light white-text'>Resume</h5>
         </div>
         <div className='row center'>
           <a
@@ -20,17 +20,10 @@ const ResumeGithub = () => {
           >
             Resume Page
           </a>
-          <a
-            href='https://github.com/mattmaliaros'
-            id='download-button'
-            className='btn-large waves-effect waves-light teal lighten-1'
-          >
-            Github Page
-          </a>
         </div>
       </div>
     </div>
   );
 };
 
-export default ResumeGithub;
+export default Resume;

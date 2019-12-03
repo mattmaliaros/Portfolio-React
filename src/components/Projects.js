@@ -13,11 +13,11 @@ const Projects = () => {
             Web Development
           </h3>
           <div className='row center'>
-            <h5 className='header col s12 light white-text'>My Projects</h5>
+            <h5 className='header col s12 light white-text'>Github Projects</h5>
           </div>
           <div className='row center'>
             <a
-              href='./portfolio.html'
+              href='https://github.com/mattmaliaros'
               id='download-button'
               className='btn-large waves-effect waves-light teal lighten-1'
             >

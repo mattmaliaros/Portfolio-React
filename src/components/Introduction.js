@@ -33,6 +33,10 @@ const Introduction = () => {
           self-teachings, as well. I will continually refine the project over
           time to showcase my abilities.
         </p>
+        <p>
+        <strong>I think you're going to enjoy some of the features that I have created on this web app.  Navigate around -- Have some fun!</strong>
+        </p>
+        
       </div>
     </div>
   );
